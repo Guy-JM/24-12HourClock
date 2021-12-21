@@ -1,0 +1,58 @@
+*{
+	background-color: black;
+	box-sizing: border-box;
+  	margin: 0%;
+  	padding: 0;
+
+}
+
+.daysOW li{
+	display: inline-block;
+	color: #8A8A8A;
+	padding: 0px 10px;
+}
+
+.daysOW{
+	text-align: center;
+	margin-top: 30%;
+	padding: 10px;
+}
+
+.Time h1{
+	color:  #00FF97;
+	font-size: 100px;
+	text-align: center;
+}
+#clock{
+	color:  #00FF97;
+	font-size: 100px;
+	text-align: center;
+
+}
+
+
+#day{
+	color:  #00FF97;
+	font-size: 100px;
+	text-align: center;
+
+}
+
+.Mil_Stan button{
+	border: none;
+}
+
+.Mil_Stan li{
+	display: inline-block;
+	color: #8A8A8A;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.Mil_Stan li:visted{
+	color:  #00FF97;
+}
+
+.Mil_Stan{
+	text-align: center;
+}

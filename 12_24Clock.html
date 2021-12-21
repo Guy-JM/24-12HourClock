@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="12_24Clock.css">
+<head>
+	<title>Clock</title>
+</head>
+<body>
+	<div>
+		<ul class="daysOW">
+			<li id="one">Monday</li>
+			<li id="two">Tuesday</li>
+			<li id="three">Wednesday</li>
+			<li id="four" >Thursday</li>
+			<li id="five">Friday</li>
+			<li id="six">Saturday</li>
+			<li id="zero">Sunday</li>
+		</ul>
+	</div>
+	<div class="Time" id="clock" onload="currentTime24()">
+		<h1 onload="currentTime24()"></h1>
+	</div>
+	<div class="Mil_Stan">
+		<ul>
+			<button id="B12"><li id="twelveHours">12 Hour</li></button>
+			<button id="B24"><li id="twofourHours">24 Hour</li></button>
+		</ul>
+	</div>
+	<div id="day">
+		<h1 onload="currentDay()"></h1>
+	</div>
+	<script type="text/javascript" src="12_24Clock.js"></script>
+	<script type="text/javascript" src="12_24Day.js"></script>
+	<script type="text/javascript" src="Hours12_24.js"></script>
+
+</body>
+</html>
